@@ -30,6 +30,7 @@ import image15 from "../images/image15.jpeg";
 import image16 from "../images/image16.jpeg";
 import image17 from "../images/image17.jpeg";
 import image18 from "../images/image18.jpeg";
+import { Link } from "react-router-dom";
 
 function TravelWeb() {
   const [place, setPlace] = useState("");
@@ -69,7 +70,7 @@ function TravelWeb() {
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore,
               nobis!
             </p>
-            <a href="#">Browse now</a>
+            <button>Browse now</button>
           </div>
         </div>
       </div>
@@ -159,13 +160,12 @@ function TravelWeb() {
                   Obcaecati, sapiente
                 </p>
                 <h5>price: $500</h5>
-                <a
-                  type=""
+                <button
                   className="btn btn-primary"
                   onClick={() => handleClick("United Kingdom")}
                 >
                   Book Now
-                </a>
+                </button>
               </div>
             </div>
           </div>
@@ -179,13 +179,12 @@ function TravelWeb() {
                   Obcaecati, sapiente
                 </p>
                 <h5>price: $500</h5>
-                <a
-                  type=""
+                <button
                   className="btn btn-primary"
                   onClick={() => handleClick("France")}
                 >
                   Book Now
-                </a>
+                </button>
               </div>
             </div>
           </div>
@@ -199,13 +198,12 @@ function TravelWeb() {
                   Obcaecati, sapiente
                 </p>
                 <h5>price: $500</h5>
-                <a
-                  type=""
+                <button
                   className="btn btn-primary"
                   onClick={() => handleClick("Pakistan")}
                 >
                   Book Now
-                </a>
+                </button>
               </div>
             </div>
           </div>
@@ -221,13 +219,12 @@ function TravelWeb() {
                   Obcaecati, sapiente
                 </p>
                 <h5>price: $500</h5>
-                <a
-                  type=""
+                <button
                   className="btn btn-primary"
                   onClick={() => handleClick("Italy")}
                 >
                   Book Now
-                </a>
+                </button>
               </div>
             </div>
           </div>
@@ -241,13 +238,12 @@ function TravelWeb() {
                   Obcaecati, sapiente
                 </p>
                 <h5>price: $500</h5>
-                <a
-                  type=""
+                <button
                   className="btn btn-primary"
                   onClick={() => handleClick("India")}
                 >
                   Book Now
-                </a>
+                </button>
               </div>
             </div>
           </div>
@@ -261,13 +257,12 @@ function TravelWeb() {
                   Obcaecati, sapiente
                 </p>
                 <h5>price: $500</h5>
-                <a
-                  type=""
+                <button
                   className="btn btn-primary"
                   onClick={() => handleClick("United State")}
                 >
                   Book Now
-                </a>
+                </button>
               </div>
             </div>
           </div>
@@ -417,10 +412,10 @@ function TravelWeb() {
                 className="text-dark fs-5"
                 icon={faArrowRightLong}
               />
-              <a href="contact" style={{ color: "green" }}>
+              <Link to="/contact" style={{ color: "green" }}>
                 <span className="text-danger"> G</span>lobe
                 <span className="text-danger"> E</span>xplore
-              </a>
+              </Link>
             </p>
             <p className="text-warning">
               &copy; Copyright. All rights reserved
