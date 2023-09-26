@@ -15,7 +15,7 @@ function About() {
           <div className="col-md-6">
             <img
               src={image19}
-              alt="No image"
+              alt="world"
               className="img-fluid mt-4"
               style={{ width: "100%", height: "450px" }}
             />
