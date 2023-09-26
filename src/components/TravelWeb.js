@@ -86,7 +86,7 @@ function TravelWeb() {
             <img
               src={image6}
               className="img-fluid mt-4"
-              alt="No image"
+              alt="error"
               style={{ width: "100%", height: "550px" }}
             />
           </div>
@@ -151,7 +151,7 @@ function TravelWeb() {
         <div className="row packages">
           <div className="col-md-4">
             <div className="card">
-              <img src={image7} alt="No image" />
+              <img src={image7} alt="error" />
               <div className="card-body">
                 <div className="card-title fs-3">United Kingdom</div>
                 <p className="card-text">
@@ -171,7 +171,7 @@ function TravelWeb() {
           </div>
           <div className="col-md-4">
             <div className="card">
-              <img src={image8} alt="No image" />
+              <img src={image8} alt="error" />
               <div className="card-body">
                 <div className="card-title fs-3">France</div>
                 <p className="card-text">
@@ -191,7 +191,7 @@ function TravelWeb() {
           </div>
           <div className="col-md-4">
             <div className="card">
-              <img src={image9} alt="No image" />
+              <img src={image9} alt="error" />
               <div className="card-body">
                 <div className="card-title fs-3">Pakistan</div>
                 <p className="card-text">
@@ -213,7 +213,7 @@ function TravelWeb() {
         <div className="row mt-5 packages">
           <div className="col-md-4">
             <div className="card">
-              <img src={image10} alt="No image" />
+              <img src={image10} alt="error" />
               <div className="card-body">
                 <div className="card-title fs-3">Italy</div>
                 <p className="card-text">
@@ -233,7 +233,7 @@ function TravelWeb() {
           </div>
           <div className="col-md-4">
             <div className="card">
-              <img src={image11} alt="No image" />
+              <img src={image11} alt="error" />
               <div className="card-body">
                 <div className="card-title fs-3">India</div>
                 <p className="card-text">
@@ -253,7 +253,7 @@ function TravelWeb() {
           </div>
           <div className="col-md-4">
             <div className="card">
-              <img src={image12} alt="No image" />
+              <img src={image12} alt="error" />
               <div className="card-body">
                 <div className="card-title fs-3">United States</div>
                 <p className="card-text">
@@ -350,34 +350,34 @@ function TravelWeb() {
         <div className="row gallery">
           <div className="col-md-4">
             <div className="card">
-              <img src={image13} alt="No image" className="img-fluid" />
+              <img src={image13} alt="error" className="img-fluid" />
             </div>
           </div>
           <div className="col-md-4">
             <div className="card">
-              <img src={image14} alt="No image" className="img-fluid" />
+              <img src={image14} alt="error" className="img-fluid" />
             </div>
           </div>
           <div className="col-md-4">
             <div className="card">
-              <img src={image15} alt="No image" className="img-fluid" />
+              <img src={image15} alt="error" className="img-fluid" />
             </div>
           </div>
         </div>
         <div className="row my-5 gallery">
           <div className="col-md-4">
             <div className="card">
-              <img src={image16} alt="No image" className="img-fluid" />
+              <img src={image16} alt="error" className="img-fluid" />
             </div>
           </div>
           <div className="col-md-4">
             <div className="card">
-              <img src={image17} alt="No image" className="img-fluid" />
+              <img src={image17} alt="error" className="img-fluid" />
             </div>
           </div>
           <div className="col-md-4">
             <div className="card">
-              <img src={image18} alt="No image" className="img-fluid" />
+              <img src={image18} alt="error" className="img-fluid" />
             </div>
           </div>
         </div>
