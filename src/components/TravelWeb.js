@@ -70,7 +70,9 @@ function TravelWeb() {
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore,
               nobis!
             </p>
-            <button>Browse now</button>
+            <button type="submit" className="btn btn-primary fs-4 mt-2">
+              Browse now
+            </button>
           </div>
         </div>
       </div>
